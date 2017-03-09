@@ -1,16 +1,16 @@
-title:            Blog Title
-description:      Describe your website here.
+title       : ""
+description : "Selamat datang di DimasPrasetya.Web.Id. Website ini berisi kumpulan catatan tentang apa yang sudah penulis pelajari khususnya seputar tekhnologi informasi yang mencakup programming (mobile, android, java, c++, spring, dll) dan security (ethical hacking). Website ini juga di dedikasikan untuk sarana berbagi ilmu pengetahuan, sehingga ilmu yang sudah didapatkan penulis bisa dipahami dan bermanfaat bagi pembaca sekalian."
 
 # put your disqus here
-disqus_shortname:
-reading_time:     true # if true, shows the estimated reading time for a post
-words_per_minute: 200
-logo:             images/logo.png # logo visible in the topbar
-excerpt_separator: <!--more-->
+disqus_shortname  : dimasprasetyawebid
+reading_time      : true # if true, shows the estimated reading time for a post
+words_per_minute  : 200
+logo              : images/my-logo.png # logo visible in the topbar
+excerpt_separator : <!--more-->
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
 
-url: http://aronbordin.com/neo-hpstr-jekyll-theme
+url : dimas-prasetya.github.io
 
 # draw your top menu here
 # each item must have a title and a url.
@@ -18,68 +18,70 @@ url: http://aronbordin.com/neo-hpstr-jekyll-theme
 #   To create sub categories. add a submenu item
 # See the example
 menu:
-  - title: 'Home'
-    url: '/'
-  - title: 'Fork'
-    url: 'http://github.com/aron-bordin/neo-hpstr-jekyll-theme'
-  - title: 'Install'
-    url: 'http://github.com/aron-bordin/neo-hpstr-jekyll-theme#installation'
-  - title: 'Tags'
-    url: '/tags'
-  - title: 'Categories'
-    url: '/categories'
-    type: 'categories'
-  - title: 'Favorites'
-    url: '#'
-    submenu:
-      - title: 'Code Highlighter'
-        url: '/intro/code-highlighting-post/'
-      - title: 'Sample Post'
-        url: '/intro/sample-post/'
+  - title     : 'Home'
+    url       : '/'
+  - title     : 'Archives'
+    url       : '/archives'
+  - title     : 'Categories'
+    url       : '/categories'
+    type      : 'categories'
+  - title     : 'Tags'
+    url       : '/tags'
+  #  url: '/categories'
+  #  type: 'categories'
+  #- title: hello
+  #  submenu:
+  #    - title: 'Code Highlighter'
+  #      url: '/intro/code-highlighting-post/'
+  #   - title: 'Sample Post'
+  #      url: '/intro/sample-post/'
 
 # Owner/author information
 owner:
-  name:           Your name
-  site:           http://aronbordin.com
-  avatar:         images/avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-  email:          you@email.com
+  name    : Dimas Prasetya
+  site    : https://dimasprasetya.web.id
+  avatar  : images/my-bio.jpg
+  bio     : "Seorang pencari ilmu yang memiliki semangat dan motivasi untuk explore hal-hal baru, suka dengan tantangan, dan senang berdiskusi dan berbagi ilmu pengetahuan | Seorang mahasiswa jurusan teknik informatika di salah satu universitas swasta daerah Jakarta yang tertarik mempelajari hal-hal yang berhubungan dengan programming khususnya mobile dan ethical hacking.
+  Selain menjadi mahasiswa, sekarang bekerja sebagai Application Developer di salah satu perusahaan IT di Indonesia. -- Keep Trying, Never Stop Learning! --"
+  email   : prasetya.dimas95@gmail.com
   # Twitter nick for use in Twitter cards and follow button.
-  twitter: aron_bordin # if no twitter in this config, the twitter follow button will be removed
+  # twitter : D_Mas95 # if no twitter in this config, the twitter follow button will be removed
   # GitHub nick for use in follow button in author block.
-  github: aron-bordin
+  # github  : dimas-prasetya
 
 # Twitter account associated with the site if different from owner/author twitter account.
 # Used in Twitter cards.
-twitter:
+twitter: 
 
 # Social networking links used in author block underneath posts. Update and remove as you like.
 social:
-  - title: "github"
-    url: "https://github.com/aron-bordin"
-  - title: "linkedin"
-    url: "https://br.linkedin.com/in/aronbordin"
-  - title: "youtube"
-    url: "https://www.youtube.com/channel/UCfnSek-9HPWOx5e2pH7VFgg"
+  - title   : "github"
+    url     : "https://github.com/dimas-prasetya"
+  - title   : "facebook"
+    url     : "https://www.facebook.com/AndroCyber"
+  - title   : "instagram"
+    url     : "https://www.instagram.com/prasetya.dimas"
+  - title   : "linkedin"
+    url     : "https://www.linkedin.com/in/dimas-prasetya/"
 
 # Background image to be tiled on all pages
-background:
+background: ""
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:
-google_verify:
+google_analytics : UA-51165053-2
+google_verify    : 
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+bing_verify      : 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
-locale:      en_US
-future:      true
-highlighter: rouge
-markdown:    kramdown
+timezone    : Asia/Jakarta
+locale      : en_US
+future      : true
+highlighter : rouge
+markdown    : kramdown
 sass:
-  sass_dir: _sass
-  style: compressed
+  sass_dir  : _sass
+  style     : compressed
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title/
@@ -102,5 +104,19 @@ titlecase: true
 
 include: [".htaccess"]
 exclude: ["demo/*", "lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
-gems: [jekyll-paginate]
+gems:
+  - jekyll-paginate
+  - jekyll-archives
 theme: neo-hpstr-jekyll-theme
+
+
+# Jekyll Archives
+jekyll-archives:
+  enabled: []
+  layout: 'archive'
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'
