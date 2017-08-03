@@ -22,7 +22,7 @@ Pada postingan sebelumnya telah disinggung sedikit mengenai bahasa pemrograman.
 
 > _Apa sih yang dimaksud bahasa pemrograman / programming language itu ?_
 
-<!-- more -->
+<!--more-->
 
 Sebelum menjawab pertanyaan di atas, saya mengajak teman-teman untuk membayangkan. Hehe...  
 
